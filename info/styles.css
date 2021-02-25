@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Paytone One', sans-serif;
+    background: #141414;
 }
 
 .navbar {
@@ -202,4 +203,45 @@
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: top;
+    justify-self: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+.main__content {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.main__content h1 {
+    color: #6dfcf0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.main__content h2 {
+    color: rgb(152, 243, 255);
+    font-family: 'Comfortaa', cursive;
+    font-size: medium;
+}
+
+.main__content p {
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: medium;
+}
+
+.main__content p a {
+    text-decoration: none;
+    background-color: #5BDDFD;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 1000;
 }
